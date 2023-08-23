@@ -12,7 +12,7 @@
   div {
       width: 100px;
       height: 200px;
-      background: #F8B140; /* 2つの背景色が指定されていたので、後のものを採用しました。 */
+      background: #F8B140;
   }
 
   .right {
