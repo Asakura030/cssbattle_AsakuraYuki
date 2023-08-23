@@ -1,0 +1,37 @@
+<div class="a">
+  <div></div>
+</div>
+<div class="b">
+  <div></div>
+</div>
+
+<style>
+  body{
+    background:#62306D;
+    display:flex;
+    gap:40px;
+  }
+  div > div{
+    background:#F7EC7D;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    translate: 0px 50%;
+  }
+  div{
+    height:100px;
+    width:100px;
+    border-radius:50% 50% 0 0;
+  }
+  .a{
+    background:#AA445F;
+    translate: 72px 42%;
+  }
+  .b{
+    background:#E38F66;
+    transform: rotate(180deg) 
+    translateX(-72%)
+    translateY(-142%);
+  }
+
+</style>
