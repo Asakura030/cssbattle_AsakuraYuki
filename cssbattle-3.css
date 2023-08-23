@@ -1,0 +1,22 @@
+<div class="a"></div>
+<div class="b"></div>
+<style>
+  body{background:#F5D6B4;
+        display:flex;
+       position:relative;
+        }
+  .a{
+    border-top:100px solid #D86F45;
+    border-right:100px solid #D86F45;
+    border-bottom:100px solid transparent;
+    border-left:100px solid transparent;
+    margin:auto;
+  }
+  .b{
+    position:absolute;
+    top:142;
+    left:91;
+    border-top:100px solid #D86F45;
+    border-left:100px solid transparent;
+  }
+</style>
