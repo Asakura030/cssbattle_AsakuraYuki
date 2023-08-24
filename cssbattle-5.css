@@ -1,0 +1,26 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<style>
+*{background:#4F77FF;position:relative;}div {
+    width: 119px;
+    height: 119px;
+    background: #FFFFFF;
+    border-radius:0 100%;
+    position:absolute;
+  }
+  .a{top:23;
+     left:72.5}
+  .b{
+     top:23;
+     left:192;
+     transform:rotate(90deg);}
+  .c{
+     top:142;
+     left:72.5;
+     transform:rotate(90deg);}
+  .d{
+     top:142;
+     left:192;}
+</style>
