@@ -1,0 +1,37 @@
+<div e>
+  <div a>
+    <div b></div>
+    <div c></div>
+  </div>
+  <div d></div>
+</div>
+
+<style>
+  body{background:#E3516E;
+       display:flex;
+       align-items:center;
+     }
+  [e]{margin: auto;}
+  [a]{
+    display:flex;
+  }
+
+  [b]{
+    width:100px;
+    height:100px;
+    background:#51B5A9;
+    border-radius:100% 0 0;
+  }
+   [c]{
+    width:100px;
+    height:100px;
+    background:#FADE8B;
+    border-radius:0 100% 0 0;
+  }
+  [d]{
+    width:100px;
+    height:100px;
+    background:#F7F3D7;
+    border-radius: 0 0 0 100%;
+  }
+</style>
