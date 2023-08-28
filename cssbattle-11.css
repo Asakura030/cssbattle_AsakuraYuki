@@ -1,0 +1,42 @@
+<div a>
+  <div b></div>
+  <div b></div>
+  <div b></div>
+  <div b></div>
+  <div c></div> 
+</div>
+
+<style>
+  body{
+    background:#66284A;
+    position:relative;
+  }
+ [a]{
+   width:140px;
+   height:140px;
+   background:#F0CD48;
+   border: 10px solid #66284A;
+   border-radius:17%;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-38%, -38%);
+   box-shadow:-40px -40px 0px -10px #F0CD48; 
+   display:grid;
+   grid-template-columns:1fr 1fr;
+ }
+  div{
+    width:30px;
+  height:30px;
+  background:#66284A;
+  border-radius:50%;
+  }
+[b]{
+  margin: auto;
+}
+  [c]{
+    position:absolute;
+    top:55;
+    left:55
+  }
+</style>
