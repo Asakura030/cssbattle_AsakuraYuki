@@ -1,0 +1,25 @@
+<div a></div>
+<div b></div>
+<div c></div>
+
+<style>
+  body{
+    margin:0;
+    background:#293462;
+    display:grid;
+    grid-template-columns:200px 100px;
+    grid-template-rows:200px 100px;
+  }
+  [a]{
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+  }
+  [b] {
+    height: 200px;
+    background:linear-gradient(to bottom, #FE5F55 150px, #A64942 0px);
+  }
+  [c]{
+    background:linear-gradient(to right, #FE5F55 150px, #A64942 0px);
+  }
+</style>
