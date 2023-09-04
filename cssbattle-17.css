@@ -1,0 +1,32 @@
+<div a>
+  <div b><div c><div d></div></div></div>  
+</div>
+<style>
+  body{
+    background:#66284A;
+    display:grid;
+    place-content:center;
+  }
+  div{
+    width: 40px;
+    height: 240px;
+    background: #F0CD48;
+    border-radius:20px;
+  }
+[a] {
+    width: 150px;
+    height: 150px;
+    border-radius:50%; 
+    display:grid;
+  place-content:center;
+  }
+  [b]{
+  transform:rotate(60deg)
+  }
+  [c]{
+  transform:rotate(60deg)
+  }
+  [d]{
+  transform:rotate(60deg)
+  }
+</style>
