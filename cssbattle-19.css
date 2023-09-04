@@ -1,0 +1,31 @@
+<div a></div>
+<div b></div>
+<div c></div>
+
+
+<style>
+  body{
+    background:#F0CD48;
+    margin:0;
+    display:grid;
+    place-content:center;
+    gap:10px
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #66284A;
+  }
+  [a]{
+    height:50px;
+    border-radius:20px 20px 0 0
+  }
+    [c]{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 50px 0 50px;
+border-color: #66284A transparent transparent transparent;
+background:transparent;
+  }
+</style>
