@@ -1,0 +1,29 @@
+<div a></div>
+<div b></div>
+<div c></div>
+
+
+<style>
+  body{
+    background:#D86F45;
+    margin:0;
+    display:grid;
+    gap:10px;
+    place-content:center;
+  }
+  div {
+    width: 180px;
+    height: 90px;
+    background: #F0CD48;
+  }
+  [b]{
+    height: 40px;
+    background: #FDFBF8;
+  }
+  [a]{
+    border-radius:100px 100px 0 0;
+  }
+  [c]{
+    border-radius:0 0 100px 100px;
+  }
+</style>
