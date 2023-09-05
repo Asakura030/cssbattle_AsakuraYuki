@@ -1,0 +1,32 @@
+<div a>
+<div b></div>
+<div c></div>
+</div>
+<style>
+  body{
+    background:#763EDF;
+    display:grid;
+    place-content:center;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    background: #6BD0FA;
+    border:20px solid #763EDF;
+  }
+  [a]{
+    width: 160px;
+    height: 160px;
+    position:relative;
+  }
+  [b]{
+    position:absolute;
+    top:-40;
+    right:-40;
+  }
+  [c]{
+     position:absolute;
+    bottom:-40;
+    left:-40;
+  }
+</style>
