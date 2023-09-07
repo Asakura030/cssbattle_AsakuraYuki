@@ -1,0 +1,26 @@
+<div></div>
+<div></div>
+<div a></div>
+
+<style>
+  body{
+    background:#C52184;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F9B4ED;
+    border-radius:50%;
+    border:25px #C52184 solid;
+  }
+  [a]{
+    border-radius:0;
+    border:none;
+    position:absolute;
+    z-index:-1;
+  }
+</style>
