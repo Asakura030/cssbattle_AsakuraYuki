@@ -1,0 +1,45 @@
+<div a>
+  <div b></div>
+  <div b></div>
+  <div c></div>
+  <div c></div>
+</div>
+  <div d></div>
+
+<style>
+  body{
+    background:#293462;
+    display:grid;
+    place-content:center;
+  }
+  div{
+    background:#FFF1C1;
+    border-radius:50%;
+  }
+  [a]{
+    width:200px;
+    height:200px;
+    background:#FE5F55;
+    border-radius:100px 100px 50px 50px;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+  [b]{
+    width:100px;
+    height:100px;
+    margin-top:-50px
+  }
+  [c]{
+    width:60px;
+    height:60px;
+    margin: -35 auto;
+  }
+   [d]{
+    width:40px;
+    height:10px;
+    justify-self: center;
+    margin-top:-30px;
+    border-radius:20px;
+  }
+</style>
