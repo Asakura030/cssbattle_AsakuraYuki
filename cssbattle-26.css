@@ -1,0 +1,68 @@
+<div a></div>
+<div b></div>
+<div></div>
+<div c y></div>
+<div y></div>
+<div d></div>
+<div e y></div>
+<div y></div>
+<div ></div>
+<div f p></div>
+<div g></div>
+<div></div>
+<div></div>
+<div m></div>
+<div p></div>
+<div p></div>
+<div y></div>
+<div m></div>
+<div m></div>
+<div m></div>
+<div p></div>
+<div m></div>
+
+<style>
+  body{
+    background:#173889;
+    display:grid;
+    margin:0;
+    grid-template-columns:45px 45px 45px 45px 45px 45px;
+    grid-template-rows:45px 45px 45px 45px 45px 45px;
+    gap:6px;
+    place-content:center;
+  }
+  div {
+    background: #EE4F63;
+  }
+  [y]{
+    background:#F8DA37;
+  }
+  [p]{
+    background:#B069F7;
+  }
+  [m]{
+    background:#2CE1EA;
+  }
+  [a]{
+    grid-column: 5
+  }
+  [b]{
+    grid-column: 4
+  }
+  [c]{
+    grid-column: 1;
+  }
+  [d]{
+    grid-column: 4
+  }
+  [e]{
+    grid-column: 1 ;
+  }
+  [f]{
+    grid-column: 5 
+  }
+  [g]{
+    grid-column: 1 
+  }
+  
+</style>
