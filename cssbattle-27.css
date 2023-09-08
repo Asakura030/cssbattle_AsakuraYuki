@@ -1,0 +1,60 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<div f></div>
+
+<style>
+  body{
+    background:#191919;
+    display:grid;
+    place-content:center;
+  }
+  div {
+    width: 100px;
+    height: 30px;
+    background: #4F77FF;
+    margin: 0 auto;
+    border:10px #191919 solid;
+    position:relative;
+    margin-top:-30;
+    border-radius:15px 15px 40px 40px;
+  }
+  [a]{
+    width: 30px;
+    border-radius:50%;
+    z-index:10;
+    margin-top:-10
+  }
+  [b]{
+    z-index:9;
+  }
+  [c]{
+    width: 140px;
+    z-index:8;
+  }
+  [d]{
+    height: 50px;
+    border-radius:0 0 100px 100px;
+    border:none;
+    z-index:7;
+    margin-top:-10
+  }
+  [e]{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:none;
+    background:#F9E492;
+    z-index:6;
+    margin-top:-20
+  }
+  [f]{
+    width:20px;
+    height:100px;
+    border-radius: 20px;
+    border:none;
+    background:#F9E492;
+  }
+</style>
