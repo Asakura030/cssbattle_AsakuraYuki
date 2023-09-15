@@ -1,0 +1,32 @@
+<div a><div b></div><div c></div></div>
+
+<style>
+  body{
+    background:#5E2948;
+    display:grid;
+    place-content:center;
+  }
+  div{
+    width:500px;
+    height:269px;
+    background:transparent;
+    border-radius:100%;
+    border:20px solid #5E2948;
+  }
+  [a] {
+    width: 220px;
+    height: 160px;
+    border-radius:0;
+    background: #E7A366;
+  }
+  [b]{
+    position:absolute;
+    top:53%;
+    left:-18%;
+  }
+  [c]{
+     position:absolute;
+    top:40%;
+    left:-18%;
+  }
+</style>
