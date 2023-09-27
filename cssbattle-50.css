@@ -1,0 +1,26 @@
+<div a></div>
+<div b></div>
+<style>
+  body{
+    background:#172D2C;
+  }
+  [a] {
+    position:absolute;
+    top:20;
+    left:50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 65px 0 65px 180px;
+    border-color: transparent transparent transparent #E9AF53;
+  }
+  [b]{
+    position:absolute;
+    top:118;
+    left:20;
+    width:180;
+    height:130;
+    background:#E9AF53;
+    transform:skew(0, 20deg)
+  }
+</style>
