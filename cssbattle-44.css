@@ -1,0 +1,55 @@
+<div a>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+</div>
+<style>
+  body{
+    display:grid;
+    place-content:center;
+  }
+  div{
+    position:absolute;
+    background: #0088CA;
+    width: 44px;
+    height: 180px;
+  }
+  [a] {
+    width: 22px;
+    height: 22px;
+    border-radius:50%;
+    position:relative;
+  }
+  [b]{
+    background: #2E2926;
+    transform:skew(-25deg);
+    top:-79;
+    left:-55;
+  }
+  [c]{
+    background: #2E2926;
+    transform:skew(25deg);
+    top:-79;
+    left:33;
+  }
+  [d]{
+    width: 120px;
+    height: 30px;
+    transform:skew(0,-45deg);
+    top:-25;
+    left:10;
+    border:10px solid #FFFFFF;
+    border-left:none;
+  }
+    [e]{
+    width: 80px;
+    height: 30px;
+    transform:skew(0,45deg);
+    position:absolute;
+    top:-6;
+    left:-80;
+    border:10px solid #FFFFFF;
+    border-right:none;
+  }
+</style>
