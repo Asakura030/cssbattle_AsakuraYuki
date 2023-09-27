@@ -1,0 +1,66 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+  body{
+    background:#AC474B;
+    display:grid;
+    place-content:center;
+  }
+  div {
+    width: 60px;
+    margin:0 auto;
+    border-radius:50%;
+  }
+  #a {
+    width:40px;
+    height:40px;
+    background:linear-gradient(to bottom, #0E1F2B 0 38%, #FFFFFF 38% 62%, #0E1F2B 0 35%);
+    position:relative;
+    z-index:2;
+    border-radius:0;
+  }
+  #a::after {
+    content:"";
+    display:block;
+    width:60px;
+    height:6px;
+    background:#0E1F2B;
+    position:absolute;
+    bottom:-6;
+    left:-10
+  }
+  #b{
+    height:60px;
+    background:linear-gradient(to bottom, #FFFFFF 0% 75%, #AC474B 75%);
+    position:relative;
+  }
+  #b::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:10px;
+    border-radius:20px;
+    background:#FFA63F;
+    position:absolute;
+    bottom:1;
+  }
+  #b::before{
+    content:"";
+    display:block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#0E1F2B;
+    position:absolute;
+    top:18;
+    left:15;
+    box-shadow:20px 0 0 #0E1F2B;
+  }
+  #c{
+    height:100px;
+    width:100px;
+    background:linear-gradient(to top, #FFFFFF 0% 88%, #AC474B 75%);
+    margin-top:-10
+  }
+</style>
