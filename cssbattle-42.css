@@ -1,0 +1,35 @@
+<div a>
+  <div b>
+    <div c></div>
+  </div>
+</div>
+
+<style>
+  body{
+    background:#6CB3A9;
+    display:grid;
+    place-content:center;
+  }
+  div{
+    display:grid;
+    place-content:center;
+    border-radius:50%;
+  }
+  [a] {
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(to bottom, #D25B70 45%, #6CB3A9 45%, #6CB3A9 55%, #FFFFFF 50%); 
+  }
+  [b]{
+    width:180px;
+    height:20px;
+    background:#781728;
+    border-radius:0
+  }
+  [c]{
+    width:50px;
+    height:50px;
+    background:#F6DF96;
+    border:10px solid #781728;
+  }
+</style>
